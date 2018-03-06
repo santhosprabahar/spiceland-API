@@ -1,0 +1,26 @@
+{
+  "name": "spiceland-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "spiceland.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon spiceland.js"
+  },
+  "author": "santhosprabahar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.0-rc1",
+    "multer": "^1.3.0",
+    "nodemon": "^1.14.7",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.4.5"
+  }
+}
